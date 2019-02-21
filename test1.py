@@ -13,7 +13,6 @@ def main():
             form Ju
         """
     print(a)
-    print("hi")
 main()
 
 "hello"+str(5)

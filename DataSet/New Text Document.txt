@@ -1,0 +1,73 @@
+if str == str[::-1]:
+    print("yes")
+else:
+    print("No")
+
+
+print(str+str1)
+str.find('ve')
+str.index('ve')
+str.lower()
+str.upper()
+str[0]='f' #error
+#print(str[:8])
+#print(str[0:10:2])
+   
+str="hi this is deepak verma"
+str1="verma"
+
+str.split('i')
+
+
+//list
+print(list[0:4])
+list[0]=10
+
+list.append(20)
+list.insert(2,21)
+list.sort()
+list.reverse()
+print(list[-1])
+list.extend(list1)
+
+///index=0
+
+while index < len(list):
+    print(list[index])
+    index=index+1
+    if index==1:
+        continue
+///
+list=[1,2,3,2,5,2,7,8,]
+
+for item in list:
+    if item==2:
+        list.remove(item)
+        
+while 2 in list:
+    list.remove(2)
+    
+////pandas
+import pandas as pd
+#reading csv file
+df=pd.read_csv("Salaries.csv")
+#top 5 record
+df.head()
+#last 5 record
+df.tail()
+
+df.max()
+df.min()
+df.mean()
+df.median()
+df.std()
+
+df.sample(5)
+
+df["phd"]
+df["salary"]
+print(df['salary'].count())
+print(df['salary'].mean())
+
+df.iloc[2:10,[0,2,3]]
+df.iloc[0]#first row

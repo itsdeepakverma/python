@@ -1,0 +1,70 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jan  8 17:26:40 2019
+
+@author: Admin
+"""
+#regex1
+import re
+
+a=input("enter a number")
+
+regex = re.compile(r'^[+-]?\d*\.[0-9]+')
+
+response = regex.match(a)
+if response:
+    print(response.group())
+else:
+    print("not float")
+    
+#regex2 and 4
+import re
+
+#a=input("enter e mails")
+list=["vermad@gmail.com", "deepak@hotmial.com", "xyz@xdr.comer"]
+
+regex = re.compile(r'^[\w\d-]+@[\w\d]+\.[\w]{2,4}$')
+for x in list:
+    response=regex.match(x)
+    if response:
+        print(response.group())
+    else:
+        print("Not Match")
+#response = re.findall(r'^[\w\d-]+@[\w\d]+\.[\w]{2,4}$',s)
+#response.sort()
+#print(response)
+
+
+
+#regex3
+import re
+
+list=["6876 9876 1234 7645", "5234-5678-9987-6543", "6787 8745 1234 7645"]
+
+regex = re.compile(r'^[456]+[\d]{3}-?[\d]{4}-?[\d]{4}-?[\d]{4}')
+for x in list:
+    response=regex.match(x)
+    if response:
+        print(response.group())
+    else:
+        print("not match")
+
+#response = re.findall(r'^[456]+[\d]{3}-?[\d]{4}-?[\d]{4}-?[\d]{4}',s)
+#print(response)
+
+#POSTCODE US
+
+import re
+
+LIST=["SW1A 0AA","SW1A 1AA","SW1A 2AA","BX3 2BB","DH98 1BT","N1 9GU","E98 1TT","TIM E22","A B1 A22",]
+regex=re.compile(r'^[A-Z]{1,2}[\dA-Z]{1,2} [\d][A-Z]{2}')
+for x in LIST:
+    response = regex.match(x)
+    if response:
+        print(response.group())
+    else:
+        print("false postcode")
+
+
+#postcode germany
+        

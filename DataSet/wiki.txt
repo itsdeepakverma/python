@@ -1,0 +1,53 @@
+<table class="wikitable sortable plainrowheaders">
+
+<tbody>
+<tr>
+  
+  <th scope="col">No.
+  </th>
+  
+  <th scope="col">State or<br />union territory
+  </th>
+  
+  <th scope="col">Administrative capitals
+  </th>
+
+  <th scope="col">Legislative capitals
+  </th>
+
+  <th scope="col"><b>Judiciary capitals</b>
+  </th>
+
+  <th scope="col">Year capital was established
+  </th>
+
+  <th scope="col">The Former capital
+  </th>
+
+</tr>
+
+<tr>
+  <th>1
+  </th>
+
+  <th scope="row"><a href="/wiki/Andaman_and_Nicobar_Islands" title="Andaman and Nicobar Islands">Andaman and Nicobar Islands</a> <img alt="union territory" src="//upload.wikimedia.org/wikipedia/commons/3/37/Dagger-14-plain.png" width="9" height="14" data-file-width="9" data-file-height="14" />
+  </th>
+
+  <td><a href="/wiki/Port_Blair" title="Port Blair">Port Blair</a>
+  </td>
+  
+  <td>&#160;—
+  </td>
+
+  <td>Kolkata
+  </td>
+
+  <td>1955
+  </td>
+
+  <td>Calcutta (1945–1955)
+  </td>
+</tr>
+
+</tbody>
+</table>
