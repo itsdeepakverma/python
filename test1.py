@@ -20,7 +20,7 @@ main()
 print("Deepak's")
 print("\"Deepak\"")
 print("\\Deepak\\")
-print(u'\u0065')
+print(u'\u0066')
 import math
 dir(math)
 help(math.sqrt)

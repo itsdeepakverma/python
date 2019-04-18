@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+1# -*- coding: utf-8 -*-
 """
 Created on Tue Oct 23 17:05:38 2018
 
@@ -64,8 +64,7 @@ print(dict1.get('fname','Not found'))
 str1="hi my name is {name} and i live in {address}".format(name='jone',address='ajmer')
 
 print(str1)
-str1="hi my name is {fname} and i live in {address}".format(**dict1)
-
+print(str1)
 del dict1['address']
 
 dict1.pop('address')
